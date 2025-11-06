@@ -4,7 +4,7 @@ This project is a full-stack mock e-commerce shopping cart application built as 
 
 ### 🎥 Demo Video
 
-[Link to your 1-2 minute Loom or YouTube demo video]
+https://youtu.be/p6zohxwYRAI
 
 ---
 
