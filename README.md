@@ -1,6 +1,3 @@
----
-
-```markdown
 # Vibe Commerce - Full-Stack E-Commerce Cart
 
 This project is a full-stack mock e-commerce shopping cart application built as a screening assignment for Vibe Commerce. It features a complete, responsive frontend built in React and a full REST API backend powered by Node.js, Express, and MongoDB.
