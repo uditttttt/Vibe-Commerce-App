@@ -90,7 +90,7 @@ To run this project locally, you will need to run both the **backend** and **fro
 
 1. **Clone the repository:**
     ```bash
-    git clone [YOUR_GITHUB_REPO_URL]
+    git clone [https://github.com/uditttttt/Vibe-Commerce-App.git]
     cd Vibe-Commerce-App
     ```
 
