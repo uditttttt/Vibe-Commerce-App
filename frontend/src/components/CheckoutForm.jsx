@@ -1,21 +1,17 @@
 import React, { useState } from 'react';
 
-// We pass 'onCheckout' as a prop. This function will be
-// triggered when the form is submitted.
 function CheckoutForm({ onCheckout }) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission (page reload)
+    e.preventDefault();
     
-    // Simple validation
     if (!name || !email) {
       alert('Please fill in both name and email.');
       return;
     }
     
-    // Call the function passed from the parent component
     onCheckout({ name, email });
   };
 

@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Create the blueprint (schema)
 const productSchema = new Schema({
     name: { 
         type: String, 
@@ -14,14 +13,12 @@ const productSchema = new Schema({
     },
     image: { 
         type: String, 
-        required: false // We'll make this optional for now
+        required: false 
     },
 }, {
-    timestamps: true, // Automatically adds 'createdAt' and 'updatedAt' fields
+    timestamps: true,
 });
 
-// Create the model from the schema
 const Product = mongoose.model('Product', productSchema);
 
-// Export the model
 module.exports = Product;
